@@ -16,7 +16,7 @@ int main(int argc, char** args){
             
              return 0;
   }
-  int A[af][ac], B[bf][bc], C[af][bc]; /*Rutina para cargar los valores*/
+  int A[af][ac], B[bf][bc], C[af][bc]; 
   for(i=0;i<af;i++){
       for(j=0;j<ac;j++){
           printf("Escribe el valor de la matriz 1 (%d, %d)-->",i+1, j+1);
@@ -40,7 +40,7 @@ int main(int argc, char** args){
       }
   }
  
-/*Rutina para imprimir*/
+
   printf("\n\n\t\t\t Matriz A");
   printf("\n");
   for(i=0;i<af;i++){
